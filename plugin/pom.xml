@@ -56,6 +56,19 @@
     <maven.compiler.target>${java-version}</maven.compiler.target>
   </properties>
 
+  <distributionManagement>
+    <repository>
+      <name>jamesj</name>
+      <id>jamesj</id>
+      <url>https://maven.jamesj.me/repository/libraries/</url>
+    </repository>
+    <snapshotRepository>
+      <name>jamesj</name>
+      <id>jamesj</id>
+      <url>https://maven.jamesj.me/repository/libraries/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <dependencyManagement>
     <dependencies>
       <dependency>

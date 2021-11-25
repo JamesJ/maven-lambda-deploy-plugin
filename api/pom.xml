@@ -11,6 +11,19 @@
 
   <artifactId>api</artifactId>
 
+  <distributionManagement>
+    <repository>
+      <name>jamesj</name>
+      <id>jamesj</id>
+      <url>https://maven.jamesj.me/repository/libraries/</url>
+    </repository>
+    <snapshotRepository>
+      <name>jamesj</name>
+      <id>jamesj</id>
+      <url>https://maven.jamesj.me/repository/libraries/</url>
+    </snapshotRepository>
+  </distributionManagement>
+
   <properties>
     <maven.compiler.source>${java-version}</maven.compiler.source>
     <maven.compiler.target>${java-version}</maven.compiler.target>
