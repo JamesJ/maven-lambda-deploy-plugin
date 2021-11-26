@@ -12,15 +12,15 @@
   <artifactId>api</artifactId>
 
   <distributionManagement>
-    <repository>
-      <name>jamesj</name>
-      <id>jamesj</id>
-      <url>https://maven.jamesj.me/repository/libraries/</url>
+     <repository>
+       <id>codeartifact</id>
+       <name>codeartifact</name>
+       <url>https://jamesj-public-457263716287.d.codeartifact.us-east-1.amazonaws.com/maven/jamesj-public/</url>
     </repository>
     <snapshotRepository>
-      <name>jamesj</name>
-      <id>jamesj</id>
-      <url>https://maven.jamesj.me/repository/libraries/</url>
+       <id>codeartifact</id>
+       <name>codeartifact</name>
+       <url>https://jamesj-public-457263716287.d.codeartifact.us-east-1.amazonaws.com/maven/jamesj-public/</url>
     </snapshotRepository>
   </distributionManagement>
 
