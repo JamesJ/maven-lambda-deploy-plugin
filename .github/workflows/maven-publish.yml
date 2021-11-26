@@ -19,9 +19,9 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-        server-id: jamesj # Value of the distributionManagement/repository/id field of the pom.xml
+        server-id: 'jamesj' # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
-        server-username: github
+        server-username: 'github'
         server-password: ${{ secrets.MAVEN_PASSWORD }} # env variable for token in deploy
 
     - name: Build with Maven
