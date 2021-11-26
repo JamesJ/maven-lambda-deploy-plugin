@@ -7,7 +7,7 @@
   <groupId>me.jamesj.lambda-deploy</groupId>
   <artifactId>main</artifactId>
   <packaging>pom</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0.1</version>
   <modules>
     <module>api</module>
     <module>plugin</module>
@@ -36,11 +36,6 @@
        <name>maven</name>
        <url>https://maven.jamesj.me/repository/library</url>
     </repository>
-    <snapshotRepository>
-       <id>jamesj</id>
-       <name>maven</name>
-       <url>https://maven.jamesj.me/repository/library</url>
-    </snapshotRepository>
   </distributionManagement>
 
 </project>
