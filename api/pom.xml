@@ -10,20 +10,7 @@
   <modelVersion>4.0.0</modelVersion>
 
   <artifactId>api</artifactId>
-
-  <distributionManagement>
-     <repository>
-       <id>jamesj</id>
-       <name>maven</name>
-       <url>https://maven.jamesj/repository/library</url>
-    </repository>
-    <snapshotRepository>
-       <id>jamesj</id>
-       <name>maven</name>
-       <url>https://maven.jamesj/repository/library</url>
-    </snapshotRepository>
-  </distributionManagement>
-
+  
   <properties>
     <maven.compiler.source>${java-version}</maven.compiler.source>
     <maven.compiler.target>${java-version}</maven.compiler.target>
