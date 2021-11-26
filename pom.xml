@@ -29,4 +29,18 @@
     <maven.compiler.target>${java-version}</maven.compiler.target>
   </properties>
 
+
+  <distributionManagement>
+     <repository>
+       <id>jamesj</id>
+       <name>maven</name>
+       <url>https://maven.jamesj.me/repository/library</url>
+    </repository>
+    <snapshotRepository>
+       <id>jamesj</id>
+       <name>maven</name>
+       <url>https://maven.jamesj.me/repository/library</url>
+    </snapshotRepository>
+  </distributionManagement>
+
 </project>
