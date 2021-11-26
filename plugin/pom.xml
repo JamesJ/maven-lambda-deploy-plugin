@@ -56,19 +56,6 @@
     <maven.compiler.target>${java-version}</maven.compiler.target>
   </properties>
 
-  <distributionManagement>
-     <repository>
-       <id>codeartifact</id>
-       <name>codeartifact</name>
-       <url>https://jamesj-public-457263716287.d.codeartifact.us-east-1.amazonaws.com/maven/jamesj-public/</url>
-    </repository>
-    <snapshotRepository>
-       <id>codeartifact</id>
-       <name>codeartifact</name>
-       <url>https://jamesj-public-457263716287.d.codeartifact.us-east-1.amazonaws.com/maven/jamesj-public/</url>
-    </snapshotRepository>
-  </distributionManagement>
-
   <dependencyManagement>
     <dependencies>
       <dependency>
