@@ -34,7 +34,7 @@
      <repository>
        <id>jamesj</id>
        <name>maven</name>
-       <url>https://maven.jamesj.me/repository/library</url>
+       <url>https://maven.jamesj.me/repository/libraries/</url>
     </repository>
   </distributionManagement>
 
