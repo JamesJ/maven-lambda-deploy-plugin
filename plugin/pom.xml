@@ -16,7 +16,7 @@
     <dependency>
       <groupId>me.jamesj.lambda-deploy</groupId>
       <artifactId>api</artifactId>
-      <version>1.0-SNAPSHOT</version>
+      <version>1.0.1</version>
       <scope>compile</scope>
     </dependency>
     <dependency>
