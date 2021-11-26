@@ -19,10 +19,10 @@ jobs:
       with:
         java-version: '11'
         distribution: 'adopt'
-        server-id: jamesj # Value of the distributionManagement/repository/id field of the pom.xml
+        server-id: 'jamesj' # Value of the distributionManagement/repository/id field of the pom.xml
         settings-path: ${{ github.workspace }} # location for the settings.xml file
-        server-username: ${{ secrets.MAVEN_USERNAME }} # env variable for username in deploy
-        server-password: ${{ secrets.MAVEN_PASSWORD }} # env variable for token in deploy
+        server-username: username
+        server-password: password # env variable for token in deploy
 
     - name: Build with Maven
       run: mvn -B package --file pom.xml
@@ -31,3 +31,5 @@ jobs:
       run: mvn deploy -pl api,plugin -s $GITHUB_WORKSPACE/settings.xml
       env:
         GITHUB_TOKEN: ${{ github.token }}
+        username: ${{ secrets.MAVEN_USERNAME }}
+        password: ${{ secrets.MAVEN_PASSWORD }} 
