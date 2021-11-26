@@ -87,7 +87,6 @@ public class PluginMojo extends AbstractMojo {
             .build();
         try {
             File artifact = project.getArtifact().getFile();
-            getLog().info("Artifact = " + artifact);
 
             resolveClasses().forEach(aClass -> {
                 Annotation annotation = getAnnotation(aClass); // we're required to do hacky stuff because the loader is trash and proxies them
